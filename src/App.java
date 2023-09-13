@@ -4,7 +4,8 @@ public class App {
     Scanner tangentbord=new Scanner(System.in);
     System.out.println("Skriv in en text:");
     String text= tangentbord.nextLine();
-    System.out.println(text.length());
+    System.out.println("\"" + text + "\" har " + text.length() + " bokstäver");
+
 
     System.out.println("Skriv in en text:");
     String text2= tangentbord.nextLine();
