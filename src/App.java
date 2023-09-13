@@ -5,5 +5,9 @@ public class App {
     System.out.println("Skriv in en text:");
     String text= tangentbord.nextLine();
     System.out.println(text.length());
+
+    System.out.println("Skriv in en text:");
+    String text2= tangentbord.nextLine();
+    System.out.println(text2.indexOf("Noah"));
     }
 }
