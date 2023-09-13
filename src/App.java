@@ -9,5 +9,9 @@ public class App {
     System.out.println("Skriv in en text:");
     String text2= tangentbord.nextLine();
     System.out.println(text2.indexOf("Noah"));
+    
+    String text3= "Noah";
+    String result =text3.substring(0, 3);
+    System.out.println(result);
     }
 }
