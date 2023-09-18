@@ -18,5 +18,8 @@ public class App {
     String noah="noah söng";
     Boolean svar=noah.equals("noah söng");
     System.out.println(svar);
+
+    String text4="Hej jag heter noah söng";
+    System.out.println(text4.replace("j", "g"));
     }
 }
