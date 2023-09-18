@@ -14,5 +14,9 @@ public class App {
     String text3= "Noah";
     String result =text3.substring(0, 3);
     System.out.println(result);
+
+    String noah="noah söng";
+    Boolean svar=noah.equals("noah söng");
+    System.out.println(svar);
     }
 }
